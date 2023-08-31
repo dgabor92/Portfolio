@@ -9,7 +9,7 @@ $(document).ready(function () {
         progressBar(".inner-meter.php", 80);
         progressBar(".inner-meter.vue", 80);
         progressBar(".inner-meter.python", 70);
-        progressBar(".inner-meter.react-redux", 70);
+        progressBar(".inner-meter.react-redux", 80);
         progressBar(".inner-meter.docker", 70);
         pbAlreadyLoaded = true;
       }
