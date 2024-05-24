@@ -11,8 +11,8 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.portfolio.rule=Host(`dgabor.dndnew.hu`)"
-      - "traefik.http.routers.coaching.entrypoints=websecure"
-      - "traefik.http.routers.coaching.tls.certresolver=myresolver"
+      - "traefik.http.routers.portfolio.entrypoints=websecure"
+      - "traefik.http.routers.portfolio.tls.certresolver=myresolver"
     ports:
       - 5000:5000
     networks:
