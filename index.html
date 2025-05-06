@@ -1,239 +1,476 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Gábor Portfolio Website</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1" />
-    <!-- for internet explorer -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- mobile device optimized -->
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/lity.min.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Muli:300,400"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <section id="hero">
-      <div class="container">
-        <div class="site-header">
-          <div class="header-logo">
-            <a href="#" class="site-name"><strong>Gábor <span>Deutsch</span></strong></a>
-          </div>
-          <span class="flex-spacer"></span>
-          <!-- IE WORKAROUND -->
-          <nav class="site-nav">
-            <ul>
-              <!--<li><a href="#">Home</a></li>-->
-              <li><a href="#about">About</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li>
-                <a class="contact-me btn-primary" href="mailto:deutschgabor92@gmail.com">Contact Me</a>
-              </li>
-            </ul>
-          </nav>
-          <!-- Mobile hidden nav -->
-          <nav class="mobile-nav overlay">
-            <div class="nav-burger toggle" id="toggle">
-              <span class="bar top"></span>
-              <span class="bar middle"></span>
-              <span class="bar bottom"></span>
-            </div>
-            <ul class="nav-overlay" id="overlay">
-              <!--<li><a href="#">Home</a></li>-->
-              <li><a href="#about" class="toggle">About</a></li>
-              <li><a href="#skills" class="toggle">Skills</a></li>
-              <li><a href="#projects" class="toggle">Projects</a></li>
-              <li>
-                <a href="mailto:abecilla.paularmand@gmail.com" class="toggle"
-                  >Contact Me</a
-                >
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="hero-content">
-          <h1 class="cta">Hi. I’m Gábor Deutsch</h1>
-          <p>Full-Stack Developer</p>
-          <a href="#projects" class="button-cta">View My Projects</a>
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <div class="container">
-        <div class="about-pic">
-          <img src="img/me.png" class="about-img" alt="Beach Picture 2018" />
-        </div>
-        <div class="about-content">
-          <h2>About</h2>
-          <p class="mg-bot-20">
-            I’m Gábor Deutsch. I’m an experienced full-stack developer based in
-            Debrecen, Hungary. I create
-            <span>website solutions</span> for different types of businesses.
-            With my experience, I am able to effectively design and develop applications that perfectly
-            fit clients' needs.
-          </p>
-          <p class="mg-bot-20">
-            I regularly keep up with the latest technological trends and updates, to provide the
-            clients with always up-to-date and efficient solutions, and to continuously improve
-             my professional knowledge and skills.
-             <br>
-            I love to learn things about <span>Web Development</span>, specially
-            on Javascript. Right now I’m still learning ReactJS and other JS
-            frameworks and looking forward on creating Web Applications sometime
-            in the future.
-            
-          </p>
-          <p>
-            I love playing video games with my friends. I used to go to the gym
-            and boxing in my free time.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section id="skills">
-      <div class="container">
-        <div class="skills-content">
-          <h2>Skills</h2>
-          <p class="mg-bot-20">
-            I’m a full-stack developer with over 2 years of experience. I have
-            a passion for web development and love to create for web. 
-            I have a strong understanding of the fundamentals of web development and
-            I am always looking to learn more and improve my skills. 
-            I am a fast learner and I am always looking for new challenges.
-            
-          </p>
-          <p>Check out my most recent projects below.</p>
-          <div class="skills-icons">
-            <i class="fab fa-html5"></i>
-            <i class="fab fa-css3"></i>
-            <i class="fab fa-js-square"></i>
-            <i class="fab fa-node"></i>
-            <i class="fab fa-npm"></i>
-            <i class="fab fa-php"></i>
-            <i class="fab fa-laravel"></i>
-            <i class="fas fa-database"></i>
-            <i class="fab fa-vuejs"></i>
-            <i class="fab fa-react"></i>
-            <i class="fab fa-docker"></i>
-            <i class="fab fa-python"></i>
-            <i class="fab fa-github"></i>
-            <i class="fab fa-git"></i>
-            <i class="fab fa-linux"></i>
-            <i class="fab fa-apple"></i>
-            <i class="fab fa-digital-ocean"></i>
-            <i class="fab fa-gitkraken"></i>
-            <i class="fab fa-reddit"></i>
-            <i class="fab fa-figma"></i>
-            <i class="fab fa-slack"></i>
-            <i class="fab fa-stack-overflow"></i>
-            <i class="fab fa-discord"></i>
-            <i class="fab fa-linkedin"></i>
-          </div>
-        </div>
-        <div class="skills-rating">
-          <p>HTML &amp; CSS</p>
-          <div class="outer-meter">
-            <div class="inner-meter html5"></div>
-          </div>
-          <p>Javascript</p>
-          <div class="outer-meter">
-            <div class="inner-meter javascript"></div>
-          </div>
-          <p>PHP/Laravel &amp; MySQL</p>
-          <div class="outer-meter">
-            <div class="inner-meter php"></div>
-          </div>
-          <p>Vuejs</p>
-          <div class="outer-meter">
-            <div class="inner-meter vue"></div>
-          </div>
-          <p>ReactJS</p>
-          <div class="outer-meter">
-            <div class="inner-meter react-redux"></div>
-          </div>
-          <p>Python</p>
-          <div class="outer-meter">
-            <div class="inner-meter python"></div>
-          </div>
-          <p>Docker</p>
-          <div class="outer-meter">
-            <div class="inner-meter docker"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="projects">
-      <div class="container">
-        <h2>Recent <span>Projects</span></h2>
-        <div class="thumbnails-wrapper">
-          <img
-          src="img/coaching.dndnew.hu_.png"
-          alt="Coaching website sample"
-          class="project-thumbnails"
-          data-lity-target="img/coaching.dndnew.hu_.png"
-        />
-        <img
-          src="img/dndnew_full.png"
-          alt="D&DNew Kft website"
-          class="project-thumbnails"
-          data-lity-target="img/dndnew_full.png"
-        />
-      
-          
-        <img
-          src="img/chat-fb-next.png"
-          alt="Firebase Next Chat sample"
-          class="project-thumbnails"
-          data-lity-target="img/chat-fb-next.png"
-        />
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Gabor Portfolio Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <img
-          src="img/issue_tracker.png"
-          alt="Issue Tracker sample"
-          class="project-thumbnails"
-          data-lity-target="img/issue_tracker.png"
-        />
-      </div>
-    </section>
-    <section id="footer">
-      <section id="quote">
-        <div class="container">
-          <h3>“Experience is the name everyone gives to their mistakes.”</h3>
-          <p> - Oscar Wilde</p>
-        </div>
-      </section>
-      <section id="copyright">
-        <div class="container">
-          <p>&copy; 2023 Gábor Deutsch</p>
-          <span class="flex-spacer"></span>
-          <!-- IE WORKAROUND -->
-          <div class="social-icons">
-            <a href="https://www.linkedin.com/in/g%C3%A1bor-deutsch-aa3952152/" target="_blank"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a href="https://github.com/dgabor92" target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-          </div>
-        </div>
-      </section>
-    </section>
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script src="js/lity.min.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-  </body>
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	<div id="page">	
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<div class="profile-thumb" style="background: url(images/me.png);"></div>
+							<h1><span>Gabor Deutsch</span></h1>
+							<h3><span>Web Developer</span></h3>
+							<p>
+								<ul class="fh5co-social-icons">
+									<li><a href="https://github.com/dgabor92" target="_blank"><i class="icon-github"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/g%C3%A1bor-deutsch-aa3952152/" target="_blank"><i class="icon-linkedin2"></i></a></li>
+									<li><a href="mailto:deutschgabor92@gmail.com" target="_blank"><i class="icon-mail"></i></a></li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="fh5co-about" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>About Me</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<ul class="info">
+						<li><span class="first-block">Full Name:</span><span class="second-block">Gabor Deutsch</span></li>
+						<li><span class="first-block">Phone:</span><span class="second-block">+36 30 632 6102</span></li>
+						<li><span class="first-block">Email:</span><span class="second-block">deutschgabor92@gmail.com</span></li>
+						<li><span class="first-block">Website:</span><span class="second-block">https://dgabor.dndnew.hu/</span></li>
+						<li><span class="first-block">Address:</span><span class="second-block">4031 Debrecen, Derek street 80.</span></li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<h2>Hello There!</h2>
+					<p>I’m Gábor Deutsch. I’m an experienced full-stack developer based in Debrecen, Hungary. I create website solutions for different types of businesses.</p> 
+					<p> With my <span id="experience-years"></span> experience, I am able to effectively design and develop applications that perfectly fit clients' needs.</p>
+						<p>I regularly keep up with the latest technological trends and updates, to provide the clients with always up-to-date and efficient solutions, and to continuously improve my professional knowledge and skills.</p>
+						<p>I love playing video games with my friends. I used to go to the gym and boxing in my free time.</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="https://github.com/dgabor92" target="_blank"><i class="icon-github"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/g%C3%A1bor-deutsch-aa3952152/" target="_blank"><i class="icon-linkedin2"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-resume" class="fh5co-bg-color">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>My Resume</h2>
+				</div>
+			</div>
+			<!-- WORK EXPERIENCE -->
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline">
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Work Experience</h3></div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Front-End Developer</h3>
+									<span class="company">star/trac GmbH - 2024 - Current</span>
+								</div>
+								<div class="timeline-body">
+									<p>As a Frontend Developer at the company, I am responsible for implementing user-centric interfaces that power our compley supply chain management system. I collaborate closely with our designer, 
+										product and backend teams to translate business requirements into intuitive, responsive user experiences that enable our clients to effectively manage their logistics operations.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Full-stack Developer</h3>
+									<span class="company">SMAPP Támogató és Szolgáltató Kft. - 2023 - 2024</span>
+								</div>
+								<div class="timeline-body">
+									<p>I was a full‑stack developer at the company. I was responsible for the web interface both server and client side for municipal smart applications. During my work, I mostly use Laravel + Reactjs frameworks with MySQL.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Full-stack Developer</h3>
+									<span class="company">D&DNew Kft - 2023 - 2023</span>
+								</div>
+								<div class="timeline-body">
+									<p>I was a full‑stack developer at the company, where I was responsible for both frontend and backend development, ensuring seamless integration across the entire application stack.</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Full-stack Developer</h3>
+									<span class="company">DataExpert - 2021 - 2023</span>
+								</div>
+								<div class="timeline-body">
+									<p>Offer, make, and test custom‑made solutions for clients who work in the market research area. During my work, I mostly used Laravel + Vuejs frameworks with MySQL. Developed a new platform name Rubiklab. With Rubiklab clients can create their projects, surveys, and dashboards on the portal. I have developed some solutions with Python and Ai to improve data visualization.
+									</p>
+								</div>
+							</div>
+						</li>
+
+						<br>
+						<!-- EDUCATION -->
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Education</h3></div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Junior System Operator course</h3>
+									<span class="company">Vocational Education - 2024 - Current</span>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Junior Software Developer</h3>
+									<span class="company">Green Fox Academy - 2020 - 2021</span>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Coaching</h3>
+									<span class="company">University of Debrecen - 2019 - 2020</span>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Technical Manager Msc</h3>
+									<span class="company">University of Debrecen - 2016 - 2018</span>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Technical Manager Bsc</h3>
+									<span class="company">University of Debrecen - 2012 - 2016</span>
+								</div>
+							</div>
+						</li>
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="fh5co-features" class="animate-box">
+		<div class="container">
+			<div class="services-padding">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>My Services</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-paintbrush"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Web Developent</h3>
+								<p>Building responsive and dynamic websites using the latest technologies like HTML5, CSS3, JavaScript, and frameworks such as React.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-bargraph"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Web Design</h3>
+								<p>Creating visually appealing and user-friendly designs that enhance user experience and engagement.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-chat"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Support</h3>
+								<p>Providing ongoing support and maintenance to ensure your website runs smoothly, including bug fixes, updates, and performance optimization.</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-skills" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Skills</h2>
+				</div>
+			</div>
+			<div class="row row-pb-md">
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="95"><span><strong>HTML5</strong>95%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="93"><span><strong>CSS3</strong>93%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="90"><span><strong>Javascript</strong>95%</span></div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="89"><span><strong>React</strong>90%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="85"><span><strong>PHP/Laravel</strong>85%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="90"><span><strong>MySQL</strong>90%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="85"><span><strong>Docker</strong>80%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="90"><span><strong>GIT</strong>75%</span></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="progress-wrap">
+						<h3><span class="name-left">HTML5/CSS3</span><span class="value-right">95%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Javascript/React</span><span class="value-right">95%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">PHP/Laravel</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-md-6">
+					<div class="progress-wrap">
+						<h3><span class="name-left">Docker</span><span class="value-right">80%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-striped active" role="progressbar"
+						  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Python</span><span class="value-right">72%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:72%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">GIT</span><span class="value-right">75%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- WORK -->
+	<div id="fh5co-work" class="fh5co-bg-dark">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Work</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="https://dndnew.hu/" target="_blank" class="work" style="background-image: url(images/dndnew_full.png);">
+						<div class="desc">
+							<h3>D&DNew Kft</h3>
+							<span>Website</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="https://coaching.dndnew.hu/" target="_blank" class="work" style="background-image: url(images/coaching.dndnew.hu_.png);">
+						<div class="desc">
+							<h3>Coaching</h3>
+							<span>Website</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="https://deutschpal.dndnew.hu/" target="_blank" class="work" style="background-image: url(images/deutschpal.dndnew.hu.png);">
+						<div class="desc">
+							<h3>Deutsch Pál</h3>
+							<span>Portfolio</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="https://solaregio.hu/" target="_blank" class="work" style="background-image: url(images/solaregio.hu.png);">
+						<div class="desc">
+							<h3>SolaRegio</h3>
+							<span>Website</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="https://regio-terv.vercel.app/" target="_blank" class="work" style="background-image: url(images/regio-terv.png);">
+						<div class="desc">
+							<h3>RegioTerv</h3>
+							<span>Website</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="fh5co-started" class="fh5co-bg-dark">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Hire Me!</h2>
+					<p>Looking for a skilled and experienced web developer to bring your ideas to life? Let's work together to create something amazing. Contact me today to discuss your project requirements and get a free quote.</p>
+					<p><a href="#" class="btn btn-default btn-lg">Contact me</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="fh5co-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>&copy; <span id="all-rights-years"></span> All Rights Reserved <br>Designed by <a href="https://dgabor.dndnew.hu/" target="_blank">Gabor Deutsch</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Easy PieChart -->
+	<script src="js/jquery.easypiechart.min.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
+	
+	<!-- Main -->
+	<script src="js/main.js"></script>
+	<script>
+		const startYear = 2020;
+		const currentYear = new Date().getFullYear();
+		const experienceYears = currentYear - startYear;
+		document.getElementById('experience-years').textContent = experienceYears;
+	</script>
+	<script>
+		const allRightsYears = new Date().getFullYear();
+		document.getElementById('all-rights-years').textContent = allRightsYears;
+	</script>
+	</body>
 </html>
