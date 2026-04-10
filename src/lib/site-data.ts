@@ -126,11 +126,19 @@ export const experience = [
 
 export const education = [
   {
+    role: "Ethical Hacker course",
+    company: "Vocational Education",
+    period: "2025",
+    description:
+      "Completed training focused on security fundamentals, responsible testing, and practical defensive thinking.",
+    kind: "education",
+  },
+  {
     role: "Junior System Operator course",
     company: "Vocational Education",
-    period: "2024 - Current",
+    period: "2024 - 2025",
     description:
-      "Ongoing technical training that strengthens systems thinking and operational awareness.",
+      "Completed technical training that strengthened systems thinking and operational awareness.",
     kind: "education",
   },
   {
