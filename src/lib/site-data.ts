@@ -1,3 +1,8 @@
+const dndnewImage = new URL("../../images/dndnew_full.png", import.meta.url).href;
+const coachingImage = new URL("../../images/coaching.dndnew.hu_.jpg", import.meta.url).href;
+const regioTervImage = new URL("../../images/regio_terv.jpg", import.meta.url).href;
+const solarRegioImage = new URL("../../images/solaregio.hu.png", import.meta.url).href;
+
 export const navigation = [
   { label: "About", href: "#about" },
   { label: "Work", href: "#work" },
@@ -39,7 +44,7 @@ export const projects = [
       "A polished business presence with clear messaging, service highlights, and trust-building structure.",
     impact:
       "Balanced content hierarchy and a conversion-friendly layout for a more professional first impression.",
-    image: "/images/dndnew_full.png",
+    image: dndnewImage,
     href: "https://dndnew.hu/",
     tags: ["Brand site", "Responsive UI", "SEO-friendly"],
   },
@@ -50,7 +55,7 @@ export const projects = [
       "A focused service page that keeps the offer, proof points, and contact paths easy to scan.",
     impact:
       "Designed for quick comprehension and a stronger lead-gen experience on smaller screens too.",
-    image: "/images/coaching.dndnew.hu_.jpg",
+    image: coachingImage,
     href: "https://coaching.dndnew.hu/",
     tags: ["Landing page", "Lead capture", "Conversion"],
   },
@@ -61,7 +66,7 @@ export const projects = [
       "A clean, structured website for a professional services brand with a more organized presentation.",
     impact:
       "Helps the business feel more established by keeping the layout focused, readable, and calm.",
-    image: "/images/regio_terv.jpg",
+    image: regioTervImage,
     href: "https://www.regioterv.hu/",
     tags: ["Business site", "Structured UI", "Trust"],
   },
@@ -72,7 +77,7 @@ export const projects = [
       "A clean visual system for an energy-related business, with cards, sections, and a more structured presentation.",
     impact:
       "Gives the brand more authority by keeping the visuals focused, airy, and easy to navigate.",
-    image: "/images/solaregio.hu.png",
+    image: solarRegioImage,
     href: "https://solaregio.hu/",
     tags: ["Product story", "Modern layout", "Brand presence"],
   },
