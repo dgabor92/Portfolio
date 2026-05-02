@@ -1,7 +1,15 @@
-const dndnewImage = new URL("../../images/dndnew_full.png", import.meta.url).href;
-const coachingImage = new URL("../../images/coaching.dndnew.hu_.jpg", import.meta.url).href;
-const regioTervImage = new URL("../../images/regio_terv.jpg", import.meta.url).href;
-const solarRegioImage = new URL("../../images/solaregio.hu.png", import.meta.url).href;
+const dndnewImage = new URL("../../images/dndnew_full.png", import.meta.url)
+  .href;
+const coachingImage = new URL(
+  "../../images/coaching.dndnew.hu_.jpg",
+  import.meta.url,
+).href;
+// const regioTervImage = new URL("../../images/regio_terv.jpg", import.meta.url)
+//   .href;
+// const solarRegioImage = new URL(
+//   "../../images/solaregio.hu.png",
+//   import.meta.url,
+// ).href;
 
 export const navigation = [
   { label: "About", href: "#about" },
@@ -59,28 +67,28 @@ export const projects = [
     href: "https://coaching.dndnew.hu/",
     tags: ["Landing page", "Lead capture", "Conversion"],
   },
-  {
-    title: "RegioTerv",
-    category: "Corporate website",
-    description:
-      "A clean, structured website for a professional services brand with a more organized presentation.",
-    impact:
-      "Helps the business feel more established by keeping the layout focused, readable, and calm.",
-    image: regioTervImage,
-    href: "https://www.regioterv.hu/",
-    tags: ["Business site", "Structured UI", "Trust"],
-  },
-  {
-    title: "SolarRegio",
-    category: "Product website",
-    description:
-      "A clean visual system for an energy-related business, with cards, sections, and a more structured presentation.",
-    impact:
-      "Gives the brand more authority by keeping the visuals focused, airy, and easy to navigate.",
-    image: solarRegioImage,
-    href: "https://solaregio.hu/",
-    tags: ["Product story", "Modern layout", "Brand presence"],
-  },
+  // {
+  //   title: "RegioTerv",
+  //   category: "Corporate website",
+  //   description:
+  //     "A clean, structured website for a professional services brand with a more organized presentation.",
+  //   impact:
+  //     "Helps the business feel more established by keeping the layout focused, readable, and calm.",
+  //   image: regioTervImage,
+  //   href: "https://www.regioterv.hu/",
+  //   tags: ["Business site", "Structured UI", "Trust"],
+  // },
+  // {
+  //   title: "SolarRegio",
+  //   category: "Product website",
+  //   description:
+  //     "A clean visual system for an energy-related business, with cards, sections, and a more structured presentation.",
+  //   impact:
+  //     "Gives the brand more authority by keeping the visuals focused, airy, and easy to navigate.",
+  //   image: solarRegioImage,
+  //   href: "https://solaregio.hu/",
+  //   tags: ["Product story", "Modern layout", "Brand presence"],
+  // },
 ] as const;
 
 export const stackGroups = [
