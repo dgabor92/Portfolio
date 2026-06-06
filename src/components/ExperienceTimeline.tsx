@@ -21,7 +21,7 @@ type ExperienceTimelineProps = {
 export function ExperienceTimeline({ items }: ExperienceTimelineProps) {
   return (
     <div className="relative mt-10">
-      <div className="absolute left-5 top-0 h-full w-px bg-gradient-to-b from-accent/60 via-white/15 to-transparent lg:left-1/2" />
+      <div className="absolute left-5 top-0 h-full w-px bg-linear-to-b from-accent/60 via-white/15 to-transparent lg:left-1/2" />
       <div className="space-y-6">
         {items.map((item, index) => {
           const Icon = icons[item.kind ?? "work"];
@@ -30,7 +30,7 @@ export function ExperienceTimeline({ items }: ExperienceTimelineProps) {
           return (
             <div key={`${item.company}-${item.role}`} className="relative grid gap-4 lg:grid-cols-2 lg:gap-8">
               <div className={`${alignRight ? "lg:col-start-2 lg:pl-12" : "lg:pr-12"} pl-14 lg:pl-0`}>
-                <div className="rounded-[1.5rem] border border-stroke bg-card p-5 shadow-soft backdrop-blur-xl">
+                <div className="rounded-3xl border border-stroke bg-card p-5 shadow-soft backdrop-blur-xl">
                   <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-stroke bg-white/5 px-3 py-1 text-[11px] font-medium uppercase tracking-[0.3em] text-muted">
                     <Icon size={14} className="text-accent" />
                     {item.period}

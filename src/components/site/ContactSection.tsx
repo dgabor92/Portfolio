@@ -8,7 +8,7 @@ export function ContactSection() {
       className="mx-auto w-full max-w-7xl px-5 pb-16 pt-8 sm:px-6 lg:px-8 lg:pb-24 lg:pt-12"
     >
       <div
-        className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-soft backdrop-blur-2xl sm:p-10 lg:p-12"
+        className="relative overflow-hidden rounded-4xl border border-white/10 bg-white/5 p-8 shadow-soft backdrop-blur-2xl sm:p-10 lg:p-12"
         data-reveal
       >
         <div className="absolute inset-0 bg-hero-radial opacity-80" />

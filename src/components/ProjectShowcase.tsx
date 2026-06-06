@@ -56,14 +56,14 @@ export function ProjectShowcase({
           href={href}
           target="_blank"
           rel="noreferrer"
-          className="group relative block overflow-hidden rounded-[2rem] border border-stroke bg-white/5 shadow-soft"
+          className="group relative block overflow-hidden rounded-4xl border border-stroke bg-white/5 shadow-soft"
         >
           <img
             src={image}
             alt={title}
             className="h-[320px] w-full object-cover object-top transition duration-700 group-hover:scale-[1.03] sm:h-[380px]"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-background/72 via-background/10 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-t from-background/72 via-background/10 to-transparent" />
           <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-6">
             <p className="font-mono text-[11px] uppercase tracking-[0.35em] text-white/70">Selected work</p>
             <p className="mt-2 max-w-xl text-sm leading-6 text-white/85">

@@ -9,7 +9,7 @@ export function HeroSection() {
     <section className="relative">
       <div className="mx-auto grid min-h-[calc(100svh-73px)] w-full max-w-7xl items-center gap-14 px-5 py-14 sm:px-6 lg:grid-cols-12 lg:px-8 lg:py-20">
         <div className="relative z-10 lg:col-span-7" data-reveal>
-          <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs font-medium text-foreground/90 backdrop-blur">
+          <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs font-medium text-foreground/90 backdrop-blur-sm">
             <Sparkles size={14} className="text-accent" />
             Available for select freelance and product work
           </div>
@@ -18,7 +18,7 @@ export function HeroSection() {
             React • TypeScript • Next.js • Vercel
           </p>
 
-          <h1 className="mt-5 max-w-3xl text-5xl font-semibold leading-[0.95] tracking-[-0.05em] text-foreground sm:text-6xl lg:text-7xl">
+          <h1 className="mt-5 max-w-3xl text-5xl font-semibold leading-[0.95] tracking-tighter text-foreground sm:text-6xl lg:text-7xl">
             I build fast web products with the calm confidence of a senior engineer.
           </h1>
 
@@ -63,7 +63,7 @@ export function HeroSection() {
             <div className="absolute -left-4 top-8 h-24 w-24 rounded-full border border-accent/30 bg-accent/10 blur-[1px] animate-float" />
             <div className="absolute -right-6 bottom-10 h-32 w-32 rounded-full border border-cyan-400/20 bg-cyan-400/10 blur-[1px] animate-float [animation-delay:1.3s]" />
 
-            <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 p-5 shadow-soft backdrop-blur-2xl">
+            <div className="relative overflow-hidden rounded-4xl border border-white/10 bg-white/5 p-5 shadow-soft backdrop-blur-2xl">
               <div className="absolute inset-0 bg-hero-radial opacity-70" />
               <div className="relative grid gap-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-end">
                 <div className="relative overflow-hidden rounded-[1.75rem] border border-white/10 bg-[#0f1726]">
