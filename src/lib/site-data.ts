@@ -8,6 +8,10 @@ const ragDemoImage = new URL(
   "../../images/rag-fastapi-demo.png",
   import.meta.url,
 ).href;
+const llmEvalImage = new URL(
+  "../../images/llm-eval-studio.png",
+  import.meta.url,
+).href;
 // const regioTervImage = new URL("../../images/regio_terv.jpg", import.meta.url)
 //   .href;
 // const solarRegioImage = new URL(
@@ -70,6 +74,17 @@ export const projects = [
     image: coachingImage,
     href: "https://coaching.dndnew.hu/",
     tags: ["Landing page", "Lead capture", "Conversion"],
+  },
+  {
+    title: "LLM Eval Studio",
+    category: "AI engineering project",
+    description:
+      "A web-based evaluation framework for comparing LLM performance across models and prompt strategies. Run structured test cases, score responses, and analyze latency and token costs side by side.",
+    impact:
+      "Enables systematic prompt engineering decisions with real data instead of gut feel. Built with Next.js, Prisma, and the Claude API.",
+    image: llmEvalImage,
+    href: "https://github.com/dgabor92/llm-eval-studio",
+    tags: ["Next.js", "TypeScript", "Prisma", "Claude API", "LLM Evaluation"],
   },
   {
     title: "RAG FastAPI Demo",
