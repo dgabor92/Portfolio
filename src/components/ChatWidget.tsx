@@ -1,6 +1,8 @@
 import { useState, useRef, useEffect } from 'react'
 import { MessageCircle, X, Send, Loader2 } from 'lucide-react'
 
+const MAX_CHARS = 250
+
 type Message = {
   role: 'user' | 'assistant'
   content: string
@@ -24,7 +26,7 @@ export function ChatWidget() {
 
   async function send() {
     const text = input.trim()
-    if (!text || loading) return
+    if (!text || loading || input.length > MAX_CHARS) return
 
     setInput('')
     setMessages((prev) => [...prev, { role: 'user', content: text }])
@@ -101,23 +103,28 @@ export function ChatWidget() {
 
           {/* Input */}
           <div className="border-t border-white/10 p-3">
-            <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
+            <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2 focus-within:border-white/20">
               <input
                 type="text"
                 value={input}
-                onChange={(e) => setInput(e.target.value)}
+                onChange={(e) => setInput(e.target.value.slice(0, MAX_CHARS))}
                 onKeyDown={handleKey}
                 placeholder="Ask something..."
                 className="flex-1 bg-transparent text-sm text-foreground outline-none placeholder:text-muted"
               />
               <button
                 onClick={send}
-                disabled={!input.trim() || loading}
+                disabled={!input.trim() || loading || input.length > MAX_CHARS}
                 className="flex-shrink-0 rounded-lg p-1.5 text-accent transition hover:bg-white/10 disabled:opacity-40"
               >
                 <Send size={14} />
               </button>
             </div>
+            {input.length > 0 && (
+              <p className={`mt-1 text-right text-xs ${input.length >= MAX_CHARS ? 'text-red-400' : 'text-muted'}`}>
+                {input.length}/{MAX_CHARS}
+              </p>
+            )}
           </div>
         </div>
       )}
