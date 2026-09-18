@@ -4,6 +4,10 @@ const coachingImage = new URL(
   "../../images/coaching.dndnew.hu_.jpg",
   import.meta.url,
 ).href;
+const ragDemoImage = new URL(
+  "../../images/rag-fastapi-demo.png",
+  import.meta.url,
+).href;
 // const regioTervImage = new URL("../../images/regio_terv.jpg", import.meta.url)
 //   .href;
 // const solarRegioImage = new URL(
@@ -67,28 +71,17 @@ export const projects = [
     href: "https://coaching.dndnew.hu/",
     tags: ["Landing page", "Lead capture", "Conversion"],
   },
-  // {
-  //   title: "RegioTerv",
-  //   category: "Corporate website",
-  //   description:
-  //     "A clean, structured website for a professional services brand with a more organized presentation.",
-  //   impact:
-  //     "Helps the business feel more established by keeping the layout focused, readable, and calm.",
-  //   image: regioTervImage,
-  //   href: "https://www.regioterv.hu/",
-  //   tags: ["Business site", "Structured UI", "Trust"],
-  // },
-  // {
-  //   title: "SolarRegio",
-  //   category: "Product website",
-  //   description:
-  //     "A clean visual system for an energy-related business, with cards, sections, and a more structured presentation.",
-  //   impact:
-  //     "Gives the brand more authority by keeping the visuals focused, airy, and easy to navigate.",
-  //   image: solarRegioImage,
-  //   href: "https://solaregio.hu/",
-  //   tags: ["Product story", "Modern layout", "Brand presence"],
-  // },
+  {
+    title: "RAG FastAPI Demo",
+    category: "AI engineering project",
+    description:
+      "A full-stack RAG pipeline: ingest text, store as vector embeddings in PostgreSQL, and query with semantic or hybrid search. Claude Haiku generates answers grounded only in the ingested context.",
+    impact:
+      "Demonstrates the complete RAG workflow from chunking and embedding (Ollama) to retrieval and LLM-grounded response generation.",
+    image: ragDemoImage,
+    href: "https://github.com/dgabor92/rag-fastapi-demo",
+    tags: ["RAG", "Python", "FastAPI", "pgvector", "Claude API", "Docker"],
+  },
 ] as const;
 
 export const stackGroups = [
@@ -103,6 +96,17 @@ export const stackGroups = [
   {
     title: "Platform",
     items: ["Vercel", "Docker", "GitHub Actions", "CI/CD", "Linux"],
+  },
+  {
+    title: "AI & LLM",
+    items: [
+      "Python",
+      "FastAPI",
+      "pgvector",
+      "RAG pipelines",
+      "Prompt Engineering",
+      "Claude API",
+    ],
   },
 ] as const;
 

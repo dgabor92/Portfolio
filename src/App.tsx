@@ -8,6 +8,7 @@ import { ExperienceSection } from "./components/site/ExperienceSection";
 import { EducationSection } from "./components/site/EducationSection";
 import { ContactSection } from "./components/site/ContactSection";
 import { SiteFooter } from "./components/site/SiteFooter";
+import { ChatWidget } from "./components/ChatWidget";
 
 function App() {
   useRevealOnScroll();
@@ -28,6 +29,7 @@ function App() {
       </main>
 
       <SiteFooter />
+      <ChatWidget />
     </div>
   );
 }

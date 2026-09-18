@@ -1,0 +1,107 @@
+
+
+
+Deutsch 
+Gábor
+Full-stack developer
+About me
+I'm a passionate full-stack developer. The knowledge I have gained so far allows me to design and develop applications to perfectly meet your needs effectively. In my previous projects, I put a lot of emphasis on low maintenance and code reuse to offer clients efficient and scalable solutions in the long term.
+
+I regularly follow the latest technological trends and updates so that I can always offer up-to-date and effective solutions to my clients
+
+Contact
+Phone:
++36 30 632 6102
+
+E-mail:
+deutschgabor92@gmail.com
+
+LinkedIn
+https://www.linkedin.com/in/g%C3%A1bor-deutsch-aa3952152/
+
+Personal site:
+https://dgabor.dndnew.hu/
+
+
+Work experience
+  2024 - Current
+star/trac supply chain solutions GmbH
+As a Frontend Developer at the company, I am responsible for implementing user-centric interfaces that power our compley supply chain management system. I collaborate closely with our designer, product and backend teams to translate business requirements into intuitive, responsive user experiences that enable our clients to effectively manage their logistics operations.
+
+Front-end developer
+  2023 - 2024
+SMAPP Támogató és Szolgáltató Kft.
+Full-stack developer
+I'm a full‑stack developer at the company. I am responsible for the web interface both server and client side for municipal smart applications. The users can change settings, and send notifications, creating new pages from the web to smart applications. During my work, I mostly use Laravel + Reactjs frameworks with MySQL. I maintain WordPress sites for smaller clients.
+
+  2023 – 2023
+D&DNew Kft
+Full-stack developer
+Built an access control system for Erdert‑Tuzsér Faipari Zrt. with Reactjs, Tanstack/React‑query, Tailwind, PHP/laravel framework. Hosted with Docker and Traefik.
+
+
+2021-2023
+DataExpert
+Full-stack developer
+Offer, make, and test custom‑made solutions for clients who work in the market research area. During my work, I mostly used Laravel + Vuejs frameworks with MySQL. Developed a new platform name Rubiklab. With Rubiklab clients can create their projects, surveys, and dashboards on the portal. I have developed some solutions with Python and Ai to improve data visualization.
+
+2020-2021
+D&DNew Kft
+Front-end developer
+Created Single-page applications with HTML, CSS, and Javascript, I mostly used Reactjs and Tailwind.
+
+2018-2020
+Schaeffler Magyarország Kft.
+Material management, Inventory, Warehousing
+
+Education and Qualifications
+2024 – expected completion 2025.03.26
+Ruander Oktatóközpont
+Junior System Operator course
+
+2020 – 2021
+Green Fox Academy
+Junior Software Developer
+
+2019 – 2020
+University of Debrecen
+Coaching
+
+2016 – 2018
+University of Debrecen
+Technical Manager Msc
+
+2012 – 2016
+University of Debrecen
+Technical Manager Bsc
+
+Contact
+Phone:
++36 30 632 6102
+
+E-mail:
+deutschgabor92@gmail.com
+
+LinkedIn
+https://www.linkedin.com/in/g%C3%A1bor-deutsch-aa3952152/
+
+Personal site:
+https://dgabor.dndnew.hu/
+
+Skills
+HTML
+CSS
+Javascript
+PHP/Laravel
+Reactjs
+MySQL
+Vuejs
+Docker
+Python
+
+Language
+English
+Business / Communication level
+
+Hungarian
+Native
