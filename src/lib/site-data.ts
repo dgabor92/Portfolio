@@ -1,5 +1,7 @@
-const dndnewImage = new URL("../../images/dndnew_full.png", import.meta.url)
-  .href;
+const dndnewImage = new URL(
+  "../../images/dndnew_new_full.jpeg",
+  import.meta.url,
+).href;
 const coachingImage = new URL(
   "../../images/coaching.dndnew.hu_.jpg",
   import.meta.url,
