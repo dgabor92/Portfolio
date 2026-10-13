@@ -6,8 +6,8 @@ const coachingImage = new URL(
   "../../images/coaching.dndnew.hu_.jpg",
   import.meta.url,
 ).href;
-const ragDemoImage = new URL(
-  "../../images/rag-fastapi-demo.png",
+const chatbotImage = new URL(
+  "../../images/developer-docs-chatbot.png",
   import.meta.url,
 ).href;
 const llmEvalImage = new URL(
@@ -89,15 +89,15 @@ export const projects = [
     tags: ["Next.js", "TypeScript", "Prisma", "Claude API", "LLM Evaluation"],
   },
   {
-    title: "RAG FastAPI Demo",
+    title: "Developer Docs Chatbot",
     category: "AI engineering project",
     description:
-      "A full-stack RAG pipeline: ingest text, store as vector embeddings in PostgreSQL, and query with semantic or hybrid search. Claude Haiku generates answers grounded only in the ingested context.",
+      "A production-grade RAG chatbot: index any documentation site, then ask questions in natural language. Claude Haiku streams answers grounded in the indexed content, with source citations and persistent chat sessions.",
     impact:
-      "Demonstrates the complete RAG workflow from chunking and embedding (Ollama) to retrieval and LLM-grounded response generation.",
-    image: ragDemoImage,
-    href: "https://github.com/dgabor92/rag-fastapi-demo",
-    tags: ["RAG", "Python", "FastAPI", "pgvector", "Claude API", "Docker"],
+      "Full-stack RAG pipeline with SSE streaming, multi-turn history, pgvector semantic search, and 99% test coverage across 155 unit tests.",
+    image: chatbotImage,
+    href: "https://github.com/dgabor92/developer-docs-chatbot",
+    tags: ["RAG", "Python", "FastAPI", "pgvector", "Claude API", "Docker", "React"],
   },
 ] as const;
 
